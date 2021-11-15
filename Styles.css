@@ -1,5 +1,6 @@
 body {
     background-color: beige;
+
 }
 
 h1, h2, h3, h4, form {
@@ -27,7 +28,7 @@ a {
 #Div43, #Div45, #Div47, #Div49 {
     background-color: slategray;
     margin-left: 20px;
-    margin-right: 250px;
+    margin-right: 20px;
     border: 1px solid darkgoldenrod;
     border-radius: 5px;
     box-shadow: 0 10px 10px gray;
@@ -35,19 +36,18 @@ a {
 
 .dv {
     display: flex;
+
+}
+.climate {
+    display: flex;
+}
+.section_climate {
+    flex: 0.33;
 }
 
 .dvtext {
-
     border-radius: 5px;
     box-shadow: 0 10px 10px gray;
-}
-
-.dvtext p {
-    padding: 5px 15px;
-    line-height: 1.5rem;
-    font-weight: 700;
-
 }
 
 .dvImg img {
@@ -58,7 +58,7 @@ a {
 #Div28, #Div30, #Div32, #Div34, #Div36, #Div38, #Div40, #Div42, #Div44, #Div46, #Div48 {
     background-color: gold;
     margin-left: 20px;
-    margin-right: 200px;
+    margin-right: 20px;
     border: 1px solid darkgoldenrod;
     border-radius: 5px;
     box-shadow: 0 10px 10px gray;
@@ -91,6 +91,7 @@ a {
     border: 1px solid darkgoldenrod;
     border-radius: 5px;
     box-shadow: 0 10px 10px gray;
+    height: 100%;
 }
 
 #divImg {
