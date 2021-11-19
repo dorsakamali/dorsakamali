@@ -3,6 +3,15 @@ body {
 
 }
 
+.dark-mode {
+    background-color: black;
+    color: beige;
+}
+
+#bu{
+    background-color: darkgrey;
+}
+
 h1, h2, h3, h4, form {
     color: darkslategrey;
     margin-left: 20px;
