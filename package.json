@@ -1,0 +1,22 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jquery-3.6.0.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorsakamali/dorsakamali.git"
+  },
+  "author": "dorsa kamali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dorsakamali/dorsakamali/issues"
+  },
+  "homepage": "https://github.com/dorsakamali/dorsakamali#readme",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}

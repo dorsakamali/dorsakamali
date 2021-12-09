@@ -1,16 +1,52 @@
 body {
     background-color: beige;
+    border-style: ridge;
+    border-radius: 12px;
 
 }
 
 .dark-mode {
-    background-color: black;
+    background-color: darkslategray;
     color: beige;
 }
 
-#bu{
+#switchMode, #showHide {
+    margin-left: 20px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
     background-color: darkgrey;
+    border: 2px solid darkgoldenrod;
+    width: 20%;
+
+    border-radius: 12px;
+    box-shadow: 0 7px lightgray;
+
 }
+
+#showHide:hover {
+    background-color: lightgray;
+}
+#showHide:active {
+    background-color: darkgoldenrod;
+    box-shadow: 0 5px;
+    transform: translateY(4px);
+
+}
+#switchMode:hover {
+    background-color: lightgray;
+
+}
+#switchMode:active {
+    background-color: darkgoldenrod;
+    box-shadow: 0 5px;
+    transform: translateY(4px);
+}
+
+
+
 
 h1, h2, h3, h4, form {
     color: darkslategrey;
@@ -47,9 +83,11 @@ a {
     display: flex;
 
 }
+
 .climate {
     display: flex;
 }
+
 .section_climate {
     flex: 0.33;
 }
