@@ -1,0 +1,54 @@
+header {
+    background-color: gold;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    width:50%;
+    height:100%;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color: maroon;
+    font-family: "Times New Roman";
+    text-align: center;
+    font-size: 35px;
+}
+
+form {
+    width: 500px;
+    margin: 100px auto;
+}
+
+#input {
+    width: 500px;
+    height: 60px;
+    margin: 0;
+    border: 2px solid darkgoldenrod;
+    border-radius: 20px;
+    background:maroon;
+    font-family: "Times New Roman";
+    text-indent: 10px;
+    font-size: 22px;
+}
+
+#Calculator {
+    width: 100px;
+    height: 64px;
+    float: right;
+    background: bisque;
+    border: 2px solid darkgoldenrod;
+    border-radius: 20px;
+    font-size: 21px;
+    font-family: "Times New Roman";
+}
+
+#Calculator:hover {
+
+    cursor: pointer;
+    background: darkred;
+
+}
+
+
